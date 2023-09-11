@@ -1,0 +1,123 @@
+<DOOTYPE>
+		<h1>PAGINA DE PRUEBA<h1>
+
+     <button id="mostrarMensaje">CLICK PARA ABRIR</button>
+    <button id="cerrarMensaje" style="display: none;">CLICK PARA CERRAR</button>
+    <p id="miTexto" style="display: none;">DAME CUALTO!</p>
+
+    <script>
+        // Obtener los elementos necesarios
+        var mostrarBoton = document.getElementById("mostrarMensaje");
+        var cerrarBoton = document.getElementById("cerrarMensaje");
+        var texto = document.getElementById("miTexto");
+
+        // Agregar un manejador de eventos para mostrar el mensaje
+        mostrarBoton.addEventListener("click", function() {
+            texto.style.display = "block";
+            mostrarBoton.style.display = "none";
+            cerrarBoton.style.display = "inline-block";
+        });
+
+        // Agregar un manejador de eventos para cerrar el mensaje
+        cerrarBoton.addEventListener("click", function() {
+            texto.style.display = "none";
+            mostrarBoton.style.display = "inline-block";
+            cerrarBoton.style.display = "none";
+        });
+    </script>
+</body>
+</html>
+<a href=https://www.youtube.com/watch?v=Y1LKhDrHXgs">luego que le des al boton de aqui al lado dale a este</a>
+
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUI ABAJO PUEDES CAMBIAR EL COLOR DEL FONDO</title>
+    <style>
+        /* Estilo predeterminado del fondo */
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- El contenido de tu página va aquí -->
+    <h2>AQUI ABAJO PUEDES CAMBIAR EL COLOR DEL FONDO</h2>
+    <p>Selecciona un color de fondo:</p>
+
+    <!-- Lista de selección de colores -->
+    <select id="selectColor">
+        <option value="white">Blanco</option>
+        <option value="#E09D0B">Naranja</option>
+        <option value="#3498db">Azul</option>
+        <option value="#02EB18">Verde</option>
+        <option value="#e74c3c">Rojo</option>
+    </select>
+
+    <!-- JavaScript para cambiar el fondo de la página -->
+    <script>
+        // Obtener el elemento de selección
+        var selectColor = document.getElementById("selectColor");
+
+        // Agregar un manejador de eventos para cambiar el fondo
+        selectColor.addEventListener("change", function() {
+            // Obtener el valor seleccionado
+            var selectedColor = selectColor.value;
+            // Cambiar el fondo de la página
+            document.body.style.backgroundColor = selectedColor;
+        });
+    </script>
+</body>
+</html>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Borde Decorativo</title>
+    <style>
+        /* Estilo para el borde */
+        body {
+            border: 10px solid #3498db; /* Ancho, estilo (solid, dashed, dotted, etc.) y color del borde */
+            padding: 20px; /* Espacio adicional dentro del borde para que el contenido no esté pegado al borde */
+        }
+    </style>
+</head>
+<body>
+
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrir una Imagen con un Botón</title>
+</head>
+<body>
+    <!-- El contenido de tu página va aquí -->
+
+    <!-- Botón para abrir la imagen -->
+    <button id="abrirImagen">Abrir Imagen</button>
+
+    <!-- Imagen oculta que se mostrará cuando se haga clic en el botón -->
+    <img id="imagenMostrada" src="prueba.png" alt="unica" style="display: none;">
+
+    <!-- JavaScript para mostrar la imagen al hacer clic en el botón -->
+    <script>
+        var botonAbrirImagen = document.getElementById("abrirImagen");
+        var imagenMostrada = document.getElementById("imagenMostrada");
+
+        botonAbrirImagen.addEventListener("click", function() {
+            imagenMostrada.style.display = "block";
+        });
+    </script>
+</body>
+</html>
+
+	<h3>UN PEQUEÑO FALLO CON LA FOTO PERO PARA QUE VEAS QUE AL MENOS SIRVO PA HACER UNA PAGINA WEB.</h3>
+	 
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Letra</title>
+    <style>
+        /* Cambiar el color del texto en un párrafo específico */
+        p {
+            color: red; /* Cambia "red" al color que desees, por ejemplo, "blue", "#FF5733", etc. */
+        }
+    </style>
+</head>
+<body>
+		<p class="Arial">LO WA DEJA HASTA AQUI PORQUE NI SE QUE MAS HACER Y ESTE CHIN DE LO QUE VES ME TOMO PILAA.</p>
